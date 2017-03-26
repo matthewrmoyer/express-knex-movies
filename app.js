@@ -9,6 +9,11 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var movies = require('./routes/movies');
 
+var PORT = process.env.PORT || 8080
+
+require('dotenv').config()
+
+
 
 var app = express();
 
